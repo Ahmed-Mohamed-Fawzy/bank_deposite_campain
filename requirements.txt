@@ -3,5 +3,5 @@ pandas
 plotly
 streamlit
 streamlit_lottie
-sklearn
+scikit-learn
 pickle
