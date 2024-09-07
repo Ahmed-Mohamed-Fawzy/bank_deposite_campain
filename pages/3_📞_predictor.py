@@ -36,7 +36,7 @@ model = st.sidebar.selectbox(
 )
 
 # Load Cleaned Data
-df = pd.read_csv('Cleaned_data.csv')
+df = pd.read_csv('cleaned_data.csv')
 
 # Load preprocessor
 preprocessor = pkl.load(open('preprocessor.pkl', 'rb'))
