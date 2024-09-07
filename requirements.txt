@@ -4,4 +4,4 @@ plotly
 streamlit
 streamlit_lottie
 scikit-learn
-pickle
+pickle5
