@@ -136,7 +136,7 @@ fig = go.Figure(data=[go.Table(header=dict(values=['<b>Model<b>', '<b>F1 Score<b
     font=dict(color='black', size=18),
     height=40),
                                
-                 cells=dict(values=[['<b>Random Forest<b>', '<b>AdaBoost<b>','<b>SVM<b>'], [f1_scores[0],f1_scores[1],f1_scores[2]], [recall_scores[0],recall_scores[1],recall_scores[2]], [precision_scores[0],precision_scores[1],precision_scores[2]]]))
+                 cells=dict(values=[['<b>Random Forest<b>', '<b>Gradient Boost<b>','<b>XGBoost<b>'], [f1_scores[0],f1_scores[1],f1_scores[2]], [recall_scores[0],recall_scores[1],recall_scores[2]], [precision_scores[0],precision_scores[1],precision_scores[2]]]))
                      ])
 
 fig.update_layout(title='Model Results On Test Data')
