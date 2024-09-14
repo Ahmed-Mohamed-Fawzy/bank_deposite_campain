@@ -16,7 +16,7 @@ st.set_page_config(
 st.title("Deposit Decision Predictor")
 
 # Load data
-df = pd.read_csv(r"datasets\cleaned_data.csv")
+df = pd.read_csv("datasets/cleaned_data.csv")
 
 
 # sidebar
