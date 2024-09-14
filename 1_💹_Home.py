@@ -21,7 +21,7 @@ df = pd.read_csv("datasets/cleaned_data.csv")
 
 # sidebar
 st.sidebar.header("Deposit Decision Predictor")
-st.sidebar.image("images_animations\home.jpeg")
+st.sidebar.image("images_animations/home.jpeg")
 st.sidebar.markdown(
     "Made By : [Ahmed Fawzy](https://www.linkedin.com/in/ahmedfawzy-ko/)"
 )
@@ -29,7 +29,7 @@ st.sidebar.markdown(
 # Body
 
 # Animation upload and open
-with open(r"images_animations\animation.json") as source:
+with open("images_animations/animation.json") as source:
     animation = json.load(source)
 st_lottie(animation)
 

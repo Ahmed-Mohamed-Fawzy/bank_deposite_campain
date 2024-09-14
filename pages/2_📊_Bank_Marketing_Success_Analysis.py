@@ -17,13 +17,13 @@ st.title("Bank Marketing Success Analysis")
 
 # sidebar
 st.sidebar.header("Bank Marketing Success Analysis")
-st.sidebar.image("images_animations\data_analysis.jpeg")
+st.sidebar.image("images_animations/data_analysis.jpeg")
 st.sidebar.markdown(
     "Made By : [Ahmed Fawzy](https://www.linkedin.com/in/ahmedfawzy-ko/)"
 )
 
 # Load data
-df = pd.read_csv(r"datasets\bank-additional-full.csv", sep=";")
+df = pd.read_csv("datasets/bank-additional-full.csv", sep=";")
 
 
 def is_contacted_before(x):

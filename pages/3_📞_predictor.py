@@ -19,14 +19,14 @@ st.title("Term Deposit Success Predictor")
 # Body
 
 # Animation upload and open
-with open("images_animations\prediction.json") as source:
+with open("images_animations/prediction.json") as source:
     animation = json.load(source)
 st_lottie(animation)
 
 # sidebar
 
 st.sidebar.header("Term Deposit Success Predictor")
-st.sidebar.image("images_animations\prediction.jpeg")
+st.sidebar.image("images_animations/prediction.jpeg")
 st.sidebar.subheader("Choose Your Favorite Predictor")
 
 # Filters
@@ -35,15 +35,15 @@ model = st.sidebar.selectbox(
 )
 
 # Load Cleaned Data
-df = pd.read_csv("datasets\cleaned_data.csv")
+df = pd.read_csv("datasets/cleaned_data.csv")
 
 # Load preprocessor
-preprocessor = pkl.load(open("saved_models\preprocessor.pkl", "rb"))
+preprocessor = pkl.load(open("saved_models/preprocessor.pkl", "rb"))
 
 # Load models
-rf = pkl.load(open(r"saved_models\rf.pkl", "rb"))
-gb = pkl.load(open("saved_models\gb.pkl", "rb"))
-xgb = pkl.load(open(r"saved_models\xgb.pkl", "rb"))
+rf = pkl.load(open("saved_models/rf.pkl", "rb"))
+gb = pkl.load(open("saved_models/gb.pkl", "rb"))
+xgb = pkl.load(open("saved_models/xgb.pkl", "rb"))
 
 # model selection
 if model == "Random Forest":
