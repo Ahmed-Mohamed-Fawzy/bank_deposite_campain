@@ -34,8 +34,8 @@ Several classification models were trained and tested, including logistic regres
 ### Model Evaluation and Validation
 The model was evaluated on the validation and test sets using metrics such as precision, recall, F1 score, ROC-AUC, and a confusion matrix to gauge accuracy and class balance. Error analysis identified areas for improvement, ensuring the model accurately predicts positive and negative outcomes.
 
-### Model Deployment and Monitoring
-The final model, along with EDA, is deployed on a Streamlit web app, providing an interactive platform for real-time predictions and data exploration. A monitoring system tracks model performance over time, with retraining triggers to maintain accuracy as new data is collected.
+### Model Deployment
+The final model, along with EDA, is deployed on a Streamlit web app, providing an interactive platform for real-time predictions and data exploration.
 
 ---
 
@@ -44,7 +44,7 @@ The final model, along with EDA, is deployed on a Streamlit web app, providing a
 - **Preprocessing, Modeling, and Deployment Notebook**: [Link to notebook](https://www.kaggle.com/code/ahmedfawzy2/eda-preprocessing-modeling-and-deployment)
 - **GitHub Repository**: [Project Repository](https://github.com/Ahmed-Mohamed-Fawzy/bank_deposite_campain)
 - **Source of the Data**: [UCI Bank Marketing Dataset](https://archive.ics.uci.edu/ml/datasets/bank+marketing)
-- **Dataset Description**: [Kaggle Dataset Description](https://www.kaggle.com/volodymyrgavrysh/bank-marketing-campaigns-data-set-description)
+- **Dataset Description**: [Kaggle Dataset Description](https://www.kaggle.com/datasets/volodymyrgavrysh/bank-marketing-campaigns-dataset)
 
 ---
 
