@@ -40,11 +40,13 @@ The final model, along with EDA, is deployed on a Streamlit web app, providing a
 ---
 
 ## Resources and Links
+- **Interactive Streamlit App:**: [Streamlit App](https://bank-deposite-campain.streamlit.app/)
 - **EDA and Feature Importance Notebook**: [Link to notebook](https://www.kaggle.com/code/ahmedfawzy2/eda-feature-importance)
 - **Preprocessing, Modeling, and Deployment Notebook**: [Link to notebook](https://www.kaggle.com/code/ahmedfawzy2/eda-preprocessing-modeling-and-deployment)
 - **GitHub Repository**: [Project Repository](https://github.com/Ahmed-Mohamed-Fawzy/bank_deposite_campain)
 - **Source of the Data**: [UCI Bank Marketing Dataset](https://archive.ics.uci.edu/ml/datasets/bank+marketing)
 - **Dataset Description**: [Kaggle Dataset Description](https://www.kaggle.com/datasets/volodymyrgavrysh/bank-marketing-campaigns-dataset)
+
 
 ---
 
